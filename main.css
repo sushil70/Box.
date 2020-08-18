@@ -1,0 +1,181 @@
+body {
+    background-color: white;
+    margin: 0px;
+    border-radius: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.logo img {
+    width: 250px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu_list {
+    margin: 35px;
+    font-size: auto;
+    cursor: pointer;
+    color: #ccc;
+}
+
+#plans {
+    color: black;
+}
+
+.login_button {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin: 50px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.menu_bar {
+    display: none
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px;
+    position: relative;
+
+}
+
+.text_area {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: -100px;
+    left: -30px;
+}
+
+.new_feature {
+    color: #6979ED;
+    background-color: #FED8FF;
+    padding: 10px;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title {
+    width: 500px;
+    font-size: 40px;
+
+
+}
+
+.adj {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 380px;
+}
+
+.dec p {
+    color: #ccc;
+    font-size: 24px;
+
+}
+
+.button {
+    background-color: #6979ED;
+    color: white;
+    border-radius: 15px;
+    height: 50px;
+    text-align: center;
+    width: 130px;
+    cursor: pointer;
+
+}
+
+.pic {
+    position: absolute;
+    top: -150px;
+    right: -200px;
+
+}
+
+.arrow {
+    position: absolute;
+    top: 550px;
+    display: flex;
+
+}
+
+.arrow i {
+    margin: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 50px #ccc;
+    height: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#left {
+    background-color: #6979ED;
+    color: white;
+}
+
+.after_arrow {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    width: 200px;
+}
+
+.after_arrow span {
+    color: #6979ED;
+}
+
+
+@media (max-width:600px) {
+    .menu {
+        display: none
+    }
+
+    .login_button {
+        display: none
+    }
+
+    .menu_bar {
+        display: flex;
+        margin: 50px;
+    }
+
+    .pic {
+        top: 470px;
+        left: -100px
+    }
+
+    .pic img {
+        width: 600px;
+    }
+
+    .arrow {
+        top: 1025px;
+    }
+
+}
